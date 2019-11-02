@@ -16,8 +16,7 @@ module.exports = {
   },
   rules: {
     "prettier/prettier": "error",
-    "linebreak-style": ["error", "windows"],
-    "arrow-body-style": ["error", "as-needed"],
+    "linebreak-style": 0,
     "arrow-body-style": ["error", "always"],
     "class-methods-use-this": "off",
     "no-param-reassign": "off",
